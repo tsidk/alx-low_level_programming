@@ -1,4 +1,7 @@
-#trcat - concatenate two strings
+#include "holberton.h"
+
+/**
+*_strcat - concatenate two strings
 * @dest: char string to concatenate to
 * @src: char string
 * Return: pointer to resulting string `dest`
