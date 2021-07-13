@@ -9,26 +9,26 @@
  */
 char *_strdup(char *str)
 {
-	char *nstr;
-	unsigned int i, len;
+char *nstr;
+unsigned int i, len;
 
-	if (str == NULL)
-		return (NULL);
-	i = len = 0;
-	while (str[len] != '\0')
-	{
-		len++;
-	}
-	len++;
-	nstr = malloc(len * sizeof(*str));
-	if (nstr == NULL)
-		return (NULL);
-	while (i <= len)
-	{
-		nstr[i] = str[i];
-		i++;
-	}
-	return (nstr);
+if (str == NULL)
+return (NULL);
+i = len = 0;
+while (str[len] != '\0')
+{
+len++;
+}
+len++;
+nstr = malloc(len * sizeof(*str));
+if (nstr == NULL)
+return (NULL);
+while (i <= len)
+{
+nstr[i] = str[i];
+i++;
+}
+return (nstr);
 }
 © 2021 GitHub, Inc.
 Terms
